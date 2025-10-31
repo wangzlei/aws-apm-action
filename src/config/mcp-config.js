@@ -12,7 +12,7 @@ class MCPConfigManager {
    */
   isTestMode() {
     // Using test MCP server from custom git repository
-    return false; // Currently always in test mode as per latest configuration
+    return true; // Currently always in test mode as per latest configuration
   }
 
   /**
