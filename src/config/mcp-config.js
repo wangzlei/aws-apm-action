@@ -25,7 +25,7 @@ class MCPConfigManager {
         ? [
             "--no-cache",
             "--from",
-            "git+https://github.com/mxiamxia/mcp.git#subdirectory=src/cloudwatch-appsignals-mcp-server",
+            "git+https://github.com/wangzl/mcp.git#subdirectory=src/cloudwatch-appsignals-mcp-server",
             "awslabs.cloudwatch-appsignals-mcp-server"
           ]
         : ["awslabs.cloudwatch-appsignals-mcp-server@latest"],
